@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getTweet gets the expected objects 1`] = `
+Object {
+  "content": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "I wish the twitter team the best of luck and trust that they will be successful in continuing to develop this important communication tool.",
+    "urls": Array [],
+    "userIds": Array [],
+    "usernames": Array [],
+  },
+  "html": Any<String>,
+  "lastUpdated": Any<Date>,
+  "mentionedTweet": undefined,
+  "stats": Object {
+    "likeCount": Any<Number>,
+    "replyCount": Any<Number>,
+    "retweetCount": Any<Number>,
+  },
+  "timestamp": 2013-09-14T00:25:54.000Z,
+  "tweetId": "378675940261261312",
+  "userId": "14",
+  "username": "noah",
+}
+`;
+
+exports[`getTweet gets the expected objects 2`] = `
+Object {
+  "content": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "“Just buy more if it goes lower”",
+    "urls": Array [],
+    "userIds": Array [],
+    "usernames": Array [],
+  },
+  "html": Any<String>,
+  "lastUpdated": Any<Date>,
+  "mentionedTweet": undefined,
+  "stats": Object {
+    "likeCount": Any<Number>,
+    "replyCount": Any<Number>,
+    "retweetCount": Any<Number>,
+  },
+  "timestamp": 2018-11-19T08:36:56.000Z,
+  "tweetId": "1064437357359726592",
+  "userId": "1032188509",
+  "username": "Crypto_Bitlord",
+}
+`;
+
+exports[`getTweet gets the expected objects 3`] = `
+Object {
+  "content": Object {
+    "cashtags": Array [],
+    "hashtags": Array [
+      "smm",
+      "socialmedia",
+      "marketing",
+    ],
+    "text": "Who Were LinkedIn’s 2018 Top Voices for Marketing and Social Media? \${:0}… \${#0} \${#1} \${#2}",
+    "urls": Array [
+      "http://buff.ly/2A2j3BH",
+    ],
+    "userIds": Array [],
+    "usernames": Array [],
+  },
+  "html": Any<String>,
+  "lastUpdated": Any<Date>,
+  "mentionedTweet": undefined,
+  "stats": Object {
+    "likeCount": Any<Number>,
+    "replyCount": Any<Number>,
+    "retweetCount": Any<Number>,
+  },
+  "timestamp": 2018-11-19T10:56:00.000Z,
+  "tweetId": "1064472353453867008",
+  "userId": "971620273",
+  "username": "SocialMediaKE",
+}
+`;
+
+exports[`getTweet gets the expected objects 4`] = `
+Object {
+  "content": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "Follow \${@0} for some pretty interesting threads",
+    "urls": Array [],
+    "userIds": Array [
+      "323993141",
+    ],
+    "usernames": Array [
+      "MisterCh0c",
+    ],
+  },
+  "html": Any<String>,
+  "lastUpdated": Any<Date>,
+  "mentionedTweet": "1057614142905991168",
+  "stats": Object {
+    "likeCount": Any<Number>,
+    "replyCount": Any<Number>,
+    "retweetCount": Any<Number>,
+  },
+  "timestamp": 2018-11-27T11:04:38.000Z,
+  "tweetId": "1067373627266555904",
+  "userId": "913367713837408257",
+  "username": "cvrbonbased",
+}
+`;

@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrapeFullProfile matches full profile snapshots 1`] = `
+Object {
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "",
+    "urls": Array [],
+    "usernames": Array [],
+  },
+  "color": "#1DA1F2",
+  "html": Any<String>,
+  "isProtected": false,
+  "joinedAt": 2016-06-14T08:50:00.000Z,
+  "lastUpdated": Any<Date>,
+  "name": "Test User 1",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "742745929959247873",
+  "username": "bb_test_01",
+}
+`;
+
+exports[`scrapeFullProfile matches full profile snapshots 2`] = `
+Object {
+  "avatarUrl": "https://pbs.twimg.com/profile_images/468655824/zackphone_400x400.jpg",
+  "bannerUrl": "https://pbs.twimg.com/profile_banners/82135242/1384108037/1500x500",
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [
+      "hashtag",
+    ],
+    "text": "Test Account. test test Testing username with \${@0} and a \${#0}",
+    "urls": Array [],
+    "usernames": Array [
+      "mobile_test_2",
+    ],
+  },
+  "color": "#1DA1F2",
+  "geo": "San Francisco, CA",
+  "html": Any<String>,
+  "isProtected": false,
+  "joinedAt": 2009-10-13T09:42:00.000Z,
+  "lastUpdated": Any<Date>,
+  "name": "Test account",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "82135242",
+  "username": "mobile_test",
+  "websiteUrl": "http://example.com/foobar",
+}
+`;
+
+exports[`scrapeFullProfile matches full profile snapshots 3`] = `
+Object {
+  "avatarUrl": "https://pbs.twimg.com/profile_images/1051875662032723968/WwCIyuIg_400x400.jpg",
+  "bannerUrl": "https://pbs.twimg.com/profile_banners/843013235599183872/1496962266/1500x500",
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "Blockchain will change the future! Currently developing a new cryptocurrency insights / trading app \${@0}.",
+    "urls": Array [],
+    "usernames": Array [
+      "_cryptoinsights",
+    ],
+  },
+  "color": "#FF691F",
+  "geo": "Derby, England",
+  "html": Any<String>,
+  "isProtected": false,
+  "joinedAt": 2017-03-18T01:16:00.000Z,
+  "lastUpdated": Any<Date>,
+  "name": "Jimbo",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "843013235599183872",
+  "username": "james2mid",
+  "websiteUrl": "http://jamesmiddleton.me",
+}
+`;
+
+exports[`scrapeProfile matches profile snapshots 1`] = `
+Object {
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "",
+    "urls": Array [],
+    "usernames": Array [],
+  },
+  "html": "<div class=\\"profile-card ProfileCard component profile-header\\" data-component-context=\\"profile_hover\\">
+  <div class=\\"hover-offset\\">
+    <div class=\\"arrow\\" style=\\"background-color: #1DA1F2\\"></div>
+
+    
+
+  </div>
+  <div class=\\"ProfileCard-bg\\" style=\\"background-color: #1DA1F2\\"></div>
+
+    <a href=\\"/bb_test_01\\" class=\\"ProfileCard-avatarLink js-nav\\" tabindex=\\"-1\\" aria-hidden=\\"true\\" data-send-impression-cookie=\\"true\\">
+      <span class=\\"visuallyhidden\\">Test User 1</span>
+      <img src=\\"https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png\\" alt=\\"\\" class=\\"ProfileCard-avatarImage js-action-profile-avatar\\">
+    </a>
+
+    <div class=\\"ProfileCard-actions\\">
+      <div class=\\"UserActions UserActions--small u-textLeft\\">
+
+        <div class=\\"user-actions btn-group not-following\\" data-user-id=\\"742745929959247873\\" data-screen-name=\\"bb_test_01\\" data-name=\\"Test User 1\\" data-protected=\\"false\\">
+          <span class=\\"user-actions-follow-button js-follow-btn follow-button\\">
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text follow-text\\">
+      <span aria-hidden=\\"true\\">Follow</span>
+      <span class=\\"u-hiddenVisually\\">Follow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--primary EdgeButton--small button-text following-text\\">
+      <span aria-hidden=\\"true\\">Following</span>
+      <span class=\\"u-hiddenVisually\\">Following <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unfollow-text\\">
+      <span aria-hidden=\\"true\\">Unfollow</span>
+      <span class=\\"u-hiddenVisually\\">Unfollow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--invertedDanger EdgeButton--small button-text blocked-text\\">
+    <span aria-hidden=\\"true\\">Blocked</span>
+    <span class=\\"u-hiddenVisually\\">Blocked <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unblock-text\\">
+    <span aria-hidden=\\"true\\">Unblock</span>
+    <span class=\\"u-hiddenVisually\\">Unblock <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text pending-text\\">
+    <span aria-hidden=\\"true\\">Pending</span>
+    <span class=\\"u-hiddenVisually\\">Pending follow request from <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text cancel-text\\">
+    <span aria-hidden=\\"true\\">Cancel</span>
+    <span class=\\"u-hiddenVisually\\">Cancel your follow request to <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>bb_test_01</b></span></span>
+  </button>
+</span>
+
+        </div>
+      </div>
+    </div>
+
+  <div class=\\"ProfileCard-content\\" data-screen-name=\\"bb_test_01\\" data-user-id=\\"742745929959247873\\">
+    <div class=\\"ProfileCard-userFields\\">
+        <div class=\\"ProfileNameTruncated account-group\\">
+  <div class=\\"u-textTruncate u-inlineBlock\\">
+    <a class=\\"fullname ProfileNameTruncated-link u-textInheritColor js-nav\\" href=\\"/bb_test_01\\" data-aria-label-part=\\"\\">
+      Test User 1</a></div><span class=\\"UserBadges\\"></span>
+</div>
+        <div class=\\"ProfileCard-screenname\\">
+          <a href=\\"/bb_test_01\\" class=\\"ProfileCard-screennameLink u-linkComplex js-nav\\" data-aria-label-part=\\"\\" data-send-impression-cookie=\\"true\\">
+            <span class=\\"username u-dir\\" dir=\\"ltr\\">@<b class=\\"u-linkComplex-target\\">bb_test_01</b></span>
+          </a>
+            
+        </div>
+      
+    </div>
+
+      <div class=\\"bio-container\\">
+        <p class=\\"bio profile-field u-dir\\" dir=\\"ltr\\"></p>
+      </div>
+
+
+  </div>
+      <div class=\\"ProfileCardStats\\">
+    <ul class=\\"ProfileCardStats-statList Arrange Arrange--bottom Arrange--equal\\"><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+        <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"14 Tweets\\" href=\\"/bb_test_01\\" data-element-term=\\"tweet_stats\\">
+          <span class=\\"ProfileCardStats-statLabel u-block\\">Tweets</span>
+          <span class=\\"ProfileCardStats-statValue\\" data-count=\\"14\\" data-is-compact=\\"false\\">14</span>
+        </a>
+      </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"2 Following\\" href=\\"/bb_test_01/following\\" data-element-term=\\"following_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Following</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"2\\" data-is-compact=\\"false\\">2</span>
+          </a>
+        </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"2 Followers\\" href=\\"/bb_test_01/followers\\" data-element-term=\\"follower_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Followers</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"2\\" data-is-compact=\\"false\\">2</span>
+          </a>
+        </li>
+    </ul>
+  </div>
+
+
+</div>",
+  "isProtected": false,
+  "lastUpdated": Any<Date>,
+  "name": "Test User 1",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "742745929959247873",
+  "username": "bb_test_01",
+}
+`;
+
+exports[`scrapeProfile matches profile snapshots 2`] = `
+Object {
+  "avatarUrl": "https://pbs.twimg.com/profile_images/468655824/zackphone.jpg",
+  "bannerUrl": "https://pbs.twimg.com/profile_banners/82135242/1384108037/1500x500",
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [
+      "hashtag",
+    ],
+    "text": "Test Account. test test Testing username with \${@0} and a \${#0}",
+    "urls": Array [],
+    "usernames": Array [
+      "mobile_test_2",
+    ],
+  },
+  "html": "<div class=\\"profile-card ProfileCard with-banner component profile-header\\" data-component-context=\\"profile_hover\\">
+  <div class=\\"hover-offset\\">
+    <div class=\\"arrow\\" style=\\"\\"></div>
+
+    
+      <svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" width=\\"300\\" height=\\"100\\" viewBox=\\"0 0 600 200\\">
+        <defs>
+          <clipPath id=\\"clipping\\">
+            <polygon points=\\"50,10 60,0 70,10 50,10\\"/>
+          </clipPath>
+        </defs>
+        <image href=\\"https://pbs.twimg.com/profile_banners/82135242/1384108037/600x200\\" width=\\"600\\" height=\\"200\\" clip-path=\\"url(#clipping)\\"/>
+      </svg>
+      <svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" width=\\"300\\" height=\\"100\\" viewBox=\\"0 0 600 200\\" class=\\"right-side\\">
+        <defs>
+          <clipPath id=\\"clipping\\">
+            <polygon points=\\"450,10 460,0 470,10 450,10\\"/>
+          </clipPath>
+        </defs>
+        <image href=\\"https://pbs.twimg.com/profile_banners/82135242/1384108037/600x200\\" width=\\"600\\" height=\\"200\\" clip-path=\\"url(#clipping)\\"/>
+      </svg>
+
+  </div>
+  <div class=\\"ProfileCard-bg\\" style=\\"background-image: url(&apos;https://pbs.twimg.com/profile_banners/82135242/1384108037/600x200&apos;)\\"></div>
+
+    <a href=\\"/mobile_test\\" class=\\"ProfileCard-avatarLink js-nav\\" tabindex=\\"-1\\" aria-hidden=\\"true\\" data-send-impression-cookie=\\"true\\">
+      <span class=\\"visuallyhidden\\">Test account</span>
+      <img src=\\"https://pbs.twimg.com/profile_images/468655824/zackphone_bigger.jpg\\" alt=\\"\\" class=\\"ProfileCard-avatarImage js-action-profile-avatar\\">
+    </a>
+
+    <div class=\\"ProfileCard-actions\\">
+      <div class=\\"UserActions UserActions--small u-textLeft\\">
+
+        <div class=\\"user-actions btn-group not-following\\" data-user-id=\\"82135242\\" data-screen-name=\\"mobile_test\\" data-name=\\"Test account\\" data-protected=\\"false\\">
+          <span class=\\"user-actions-follow-button js-follow-btn follow-button\\">
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text follow-text\\">
+      <span aria-hidden=\\"true\\">Follow</span>
+      <span class=\\"u-hiddenVisually\\">Follow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--primary EdgeButton--small button-text following-text\\">
+      <span aria-hidden=\\"true\\">Following</span>
+      <span class=\\"u-hiddenVisually\\">Following <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unfollow-text\\">
+      <span aria-hidden=\\"true\\">Unfollow</span>
+      <span class=\\"u-hiddenVisually\\">Unfollow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--invertedDanger EdgeButton--small button-text blocked-text\\">
+    <span aria-hidden=\\"true\\">Blocked</span>
+    <span class=\\"u-hiddenVisually\\">Blocked <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unblock-text\\">
+    <span aria-hidden=\\"true\\">Unblock</span>
+    <span class=\\"u-hiddenVisually\\">Unblock <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text pending-text\\">
+    <span aria-hidden=\\"true\\">Pending</span>
+    <span class=\\"u-hiddenVisually\\">Pending follow request from <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text cancel-text\\">
+    <span aria-hidden=\\"true\\">Cancel</span>
+    <span class=\\"u-hiddenVisually\\">Cancel your follow request to <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>mobile_test</b></span></span>
+  </button>
+</span>
+
+        </div>
+      </div>
+    </div>
+
+  <div class=\\"ProfileCard-content\\" data-screen-name=\\"mobile_test\\" data-user-id=\\"82135242\\">
+    <div class=\\"ProfileCard-userFields\\">
+        <div class=\\"ProfileNameTruncated account-group\\">
+  <div class=\\"u-textTruncate u-inlineBlock\\">
+    <a class=\\"fullname ProfileNameTruncated-link u-textInheritColor js-nav\\" href=\\"/mobile_test\\" data-aria-label-part=\\"\\">
+      Test account</a></div><span class=\\"UserBadges\\"></span>
+</div>
+        <div class=\\"ProfileCard-screenname\\">
+          <a href=\\"/mobile_test\\" class=\\"ProfileCard-screennameLink u-linkComplex js-nav\\" data-aria-label-part=\\"\\" data-send-impression-cookie=\\"true\\">
+            <span class=\\"username u-dir\\" dir=\\"ltr\\">@<b class=\\"u-linkComplex-target\\">mobile_test</b></span>
+          </a>
+            
+        </div>
+      
+    </div>
+
+      <div class=\\"bio-container\\">
+        <p class=\\"bio profile-field u-dir\\" dir=\\"ltr\\">Test Account. test test Testing username with <a href=\\"/mobile_test_2\\" class=\\"tweet-url twitter-atreply pretty-link\\" dir=\\"ltr\\" data-mentioned-user-id=\\"0\\" rel=\\"nofollow\\"><s>@</s><b>mobile_test_2</b></a> and a <a href=\\"/hashtag/hashtag?src=hash\\" data-query-source=\\"hashtag_click\\" class=\\"twitter-hashtag pretty-link js-nav\\" dir=\\"ltr\\"><s>#</s><b>hashtag</b></a></p>
+      </div>
+
+
+  </div>
+      <div class=\\"ProfileCardStats\\">
+    <ul class=\\"ProfileCardStats-statList Arrange Arrange--bottom Arrange--equal\\"><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+        <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"1,257 Tweets\\" href=\\"/mobile_test\\" data-element-term=\\"tweet_stats\\">
+          <span class=\\"ProfileCardStats-statLabel u-block\\">Tweets</span>
+          <span class=\\"ProfileCardStats-statValue\\" data-count=\\"1257\\" data-is-compact=\\"false\\">1,257</span>
+        </a>
+      </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"74 Following\\" href=\\"/mobile_test/following\\" data-element-term=\\"following_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Following</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"74\\" data-is-compact=\\"false\\">74</span>
+          </a>
+        </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"65 Followers\\" href=\\"/mobile_test/followers\\" data-element-term=\\"follower_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Followers</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"65\\" data-is-compact=\\"false\\">65</span>
+          </a>
+        </li>
+    </ul>
+  </div>
+
+
+</div>",
+  "isProtected": false,
+  "lastUpdated": Any<Date>,
+  "name": "Test account",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "82135242",
+  "username": "mobile_test",
+}
+`;
+
+exports[`scrapeProfile matches profile snapshots 3`] = `
+Object {
+  "avatarUrl": "https://pbs.twimg.com/profile_images/1051875662032723968/WwCIyuIg.jpg",
+  "bannerUrl": "https://pbs.twimg.com/profile_banners/843013235599183872/1496962266/1500x500",
+  "bio": Object {
+    "cashtags": Array [],
+    "hashtags": Array [],
+    "text": "Blockchain will change the future! Currently developing a new cryptocurrency insights / trading app \${@0}.",
+    "urls": Array [],
+    "usernames": Array [
+      "_cryptoinsights",
+    ],
+  },
+  "html": "<div class=\\"profile-card ProfileCard with-banner component profile-header\\" data-component-context=\\"profile_hover\\">
+  <div class=\\"hover-offset\\">
+    <div class=\\"arrow\\" style=\\"\\"></div>
+
+    
+      <svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" width=\\"300\\" height=\\"100\\" viewBox=\\"0 0 600 200\\">
+        <defs>
+          <clipPath id=\\"clipping\\">
+            <polygon points=\\"50,10 60,0 70,10 50,10\\"/>
+          </clipPath>
+        </defs>
+        <image href=\\"https://pbs.twimg.com/profile_banners/843013235599183872/1496962266/600x200\\" width=\\"600\\" height=\\"200\\" clip-path=\\"url(#clipping)\\"/>
+      </svg>
+      <svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" width=\\"300\\" height=\\"100\\" viewBox=\\"0 0 600 200\\" class=\\"right-side\\">
+        <defs>
+          <clipPath id=\\"clipping\\">
+            <polygon points=\\"450,10 460,0 470,10 450,10\\"/>
+          </clipPath>
+        </defs>
+        <image href=\\"https://pbs.twimg.com/profile_banners/843013235599183872/1496962266/600x200\\" width=\\"600\\" height=\\"200\\" clip-path=\\"url(#clipping)\\"/>
+      </svg>
+
+  </div>
+  <div class=\\"ProfileCard-bg\\" style=\\"background-image: url(&apos;https://pbs.twimg.com/profile_banners/843013235599183872/1496962266/600x200&apos;)\\"></div>
+
+    <a href=\\"/james2mid\\" class=\\"ProfileCard-avatarLink js-nav\\" tabindex=\\"-1\\" aria-hidden=\\"true\\" data-send-impression-cookie=\\"true\\">
+      <span class=\\"visuallyhidden\\">Jimbo</span>
+      <img src=\\"https://pbs.twimg.com/profile_images/1051875662032723968/WwCIyuIg_bigger.jpg\\" alt=\\"\\" class=\\"ProfileCard-avatarImage js-action-profile-avatar\\">
+    </a>
+
+    <div class=\\"ProfileCard-actions\\">
+      <div class=\\"UserActions UserActions--small u-textLeft\\">
+
+        <div class=\\"user-actions btn-group not-following\\" data-user-id=\\"843013235599183872\\" data-screen-name=\\"james2mid\\" data-name=\\"Jimbo\\" data-protected=\\"false\\">
+          <span class=\\"user-actions-follow-button js-follow-btn follow-button\\">
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text follow-text\\">
+      <span aria-hidden=\\"true\\">Follow</span>
+      <span class=\\"u-hiddenVisually\\">Follow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--primary EdgeButton--small button-text following-text\\">
+      <span aria-hidden=\\"true\\">Following</span>
+      <span class=\\"u-hiddenVisually\\">Following <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unfollow-text\\">
+      <span aria-hidden=\\"true\\">Unfollow</span>
+      <span class=\\"u-hiddenVisually\\">Unfollow <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--invertedDanger EdgeButton--small button-text blocked-text\\">
+    <span aria-hidden=\\"true\\">Blocked</span>
+    <span class=\\"u-hiddenVisually\\">Blocked <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--danger EdgeButton--small button-text unblock-text\\">
+    <span aria-hidden=\\"true\\">Unblock</span>
+    <span class=\\"u-hiddenVisually\\">Unblock <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text pending-text\\">
+    <span aria-hidden=\\"true\\">Pending</span>
+    <span class=\\"u-hiddenVisually\\">Pending follow request from <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+  <button type=\\"button\\" class=\\"EdgeButton EdgeButton--secondary EdgeButton--small button-text cancel-text\\">
+    <span aria-hidden=\\"true\\">Cancel</span>
+    <span class=\\"u-hiddenVisually\\">Cancel your follow request to <span class=\\"username u-dir u-textTruncate\\" dir=\\"ltr\\">@<b>james2mid</b></span></span>
+  </button>
+</span>
+
+        </div>
+      </div>
+    </div>
+
+  <div class=\\"ProfileCard-content\\" data-screen-name=\\"james2mid\\" data-user-id=\\"843013235599183872\\">
+    <div class=\\"ProfileCard-userFields\\">
+        <div class=\\"ProfileNameTruncated account-group\\">
+  <div class=\\"u-textTruncate u-inlineBlock\\">
+    <a class=\\"fullname ProfileNameTruncated-link u-textInheritColor js-nav\\" href=\\"/james2mid\\" data-aria-label-part=\\"\\">
+      Jimbo</a></div><span class=\\"UserBadges\\"></span>
+</div>
+        <div class=\\"ProfileCard-screenname\\">
+          <a href=\\"/james2mid\\" class=\\"ProfileCard-screennameLink u-linkComplex js-nav\\" data-aria-label-part=\\"\\" data-send-impression-cookie=\\"true\\">
+            <span class=\\"username u-dir\\" dir=\\"ltr\\">@<b class=\\"u-linkComplex-target\\">james2mid</b></span>
+          </a>
+            
+        </div>
+      
+    </div>
+
+      <div class=\\"bio-container\\">
+        <p class=\\"bio profile-field u-dir\\" dir=\\"ltr\\">Blockchain will change the future! Currently developing a new cryptocurrency insights / trading app <a href=\\"/_cryptoinsights\\" class=\\"tweet-url twitter-atreply pretty-link\\" dir=\\"ltr\\" data-mentioned-user-id=\\"0\\" rel=\\"nofollow\\"><s>@</s><b>_cryptoinsights</b></a>.</p>
+      </div>
+
+
+  </div>
+      <div class=\\"ProfileCardStats\\">
+    <ul class=\\"ProfileCardStats-statList Arrange Arrange--bottom Arrange--equal\\"><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+        <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"875 Tweets\\" href=\\"/james2mid\\" data-element-term=\\"tweet_stats\\">
+          <span class=\\"ProfileCardStats-statLabel u-block\\">Tweets</span>
+          <span class=\\"ProfileCardStats-statValue\\" data-count=\\"875\\" data-is-compact=\\"false\\">875</span>
+        </a>
+      </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"123 Following\\" href=\\"/james2mid/following\\" data-element-term=\\"following_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Following</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"123\\" data-is-compact=\\"false\\">123</span>
+          </a>
+        </li><li class=\\"ProfileCardStats-stat Arrange-sizeFit\\">
+          <a class=\\"ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav js-tooltip\\" title=\\"202 Followers\\" href=\\"/james2mid/followers\\" data-element-term=\\"follower_stats\\">
+            <span class=\\"ProfileCardStats-statLabel u-block\\">Followers</span>
+            <span class=\\"ProfileCardStats-statValue\\" data-count=\\"202\\" data-is-compact=\\"false\\">202</span>
+          </a>
+        </li>
+    </ul>
+  </div>
+
+
+</div>",
+  "isProtected": false,
+  "lastUpdated": Any<Date>,
+  "name": "Jimbo",
+  "stats": Object {
+    "followersCount": Any<Number>,
+    "followingCount": Any<Number>,
+    "tweetCount": Any<Number>,
+  },
+  "userId": "843013235599183872",
+  "username": "james2mid",
+}
+`;
