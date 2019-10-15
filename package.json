@@ -23,7 +23,7 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "css": "^2.2.4",
-    "html-minifier": "^3.5.21",
+    "html-minifier": "^4.0.0",
     "joi": "^14.1.0",
     "jtools": "github:james2mid/jtools",
     "moment": "^2.22.2",
