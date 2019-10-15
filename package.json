@@ -27,7 +27,7 @@
     "joi": "^14.1.0",
     "jtools": "github:james2mid/jtools",
     "moment": "^2.22.2",
-    "rxjs": "^6.3.3",
+    "rxjs": "^6.5.3",
     "ts-node": "^7.0.1"
   },
   "devDependencies": {
