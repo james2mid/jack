@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.9",
     "@types/html-minifier": "^3.5.2",
-    "@types/joi": "^14.0.0",
+    "@types/joi": "^14.3.3",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "css": "^2.2.4",
