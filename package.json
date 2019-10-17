@@ -24,7 +24,7 @@
     "cheerio": "^1.0.0-rc.2",
     "css": "^2.2.4",
     "html-minifier": "^4.0.0",
-    "joi": "^14.1.0",
+    "joi": "^14.3.1",
     "jtools": "github:james2mid/jtools",
     "moment": "^2.22.2",
     "rxjs": "^6.5.3",
